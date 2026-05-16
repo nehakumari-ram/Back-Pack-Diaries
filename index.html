@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Back Pack Diaries — Stories from Around the World</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&family=Cormorant+Garamond:ital,wght@1,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ========== LOADER ========== -->
+  <div id="loader">
+    <div class="loader-inner">
+      <span class="loader-logo">✦</span>
+      <p>Loading adventures...</p>
+    </div>
+  </div>
+
+  <!-- ========== SCROLL TO TOP ========== -->
+  <button id="scrollTop" aria-label="Scroll to top">↑</button>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">Back Pack Diaries</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#destinations" class="nav-link">Destinations</a></li>
+        <li><a href="#diaries" class="nav-link">Diaries</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section id="home" class="hero">
+    <div class="hero-bg" id="heroBg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="hero-tag reveal-up">EST. 2024 · TRAVEL JOURNAL</span>
+      <h1 class="hero-title reveal-up">Back Pack<br /><em>Diaries</em></h1>
+      <p class="hero-sub reveal-up">Stories, journeys, and adventures from around the world.</p>
+      <div class="hero-btns reveal-up">
+        <a href="#destinations" class="btn btn-primary">Explore Diaries</a>
+        <a href="#diaries" class="btn btn-ghost">Start Journey</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== DESTINATIONS ========== -->
+  <section id="destinations" class="section destinations">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">Where to next?</span>
+        <h2>Featured <em>Destinations</em></h2>
+        <p>Handpicked corners of the world, waiting to be explored.</p>
+      </div>
+      <div class="dest-grid">
+
+        <div class="dest-card reveal-up">
+          <div class="dest-img" style="background-image:url('https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&q=80')">
+            <span class="dest-tag">Indonesia</span>
+          </div>
+          <div class="dest-body">
+            <h3>Bali</h3>
+            <p>Sacred temples, emerald rice terraces, and sunsets that redefine golden hour.</p>
+            <a href="#" class="card-link">Read More →</a>
+          </div>
+        </div>
+
+        <div class="dest-card reveal-up">
+          <div class="dest-img" style="background-image:url('https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=800&q=80')">
+            <span class="dest-tag">Switzerland</span>
+          </div>
+          <div class="dest-body">
+            <h3>Swiss Alps</h3>
+            <p>Crystalline lakes, dramatic peaks, and villages frozen in storybook time.</p>
+            <a href="#" class="card-link">Read More →</a>
+          </div>
+        </div>
+
+        <div class="dest-card reveal-up">
+          <div class="dest-img" style="background-image:url('https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80')">
+            <span class="dest-tag">Japan</span>
+          </div>
+          <div class="dest-body">
+            <h3>Tokyo</h3>
+            <p>Neon canyons, ancient shrines, and a culinary universe hidden in every alley.</p>
+            <a href="#" class="card-link">Read More →</a>
+          </div>
+        </div>
+
+        <div class="dest-card reveal-up">
+          <div class="dest-img" style="background-image:url('https://images.unsplash.com/photo-1476610182048-b716b8518aae?w=800&q=80')">
+            <span class="dest-tag">Iceland</span>
+          </div>
+          <div class="dest-body">
+            <h3>Iceland</h3>
+            <p>Glaciers, geysers, northern lights — a land that feels forged from myth.</p>
+            <a href="#" class="card-link">Read More →</a>
+          </div>
+        </div>
+
+        <div class="dest-card reveal-up">
+          <div class="dest-img" style="background-image:url('https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80')">
+            <span class="dest-tag">France</span>
+          </div>
+          <div class="dest-body">
+            <h3>Paris</h3>
+            <p>Boulevards that breathe art, cafés that slow time, and a skyline built on romance.</p>
+            <a href="#" class="card-link">Read More →</a>
+          </div>
+        </div>
+
+        <div class="dest-card reveal-up">
+          <div class="dest-img" style="background-image:url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80')">
+            <span class="dest-tag">India</span>
+          </div>
+          <div class="dest-body">
+            <h3>Ladakh</h3>
+            <p>High-altitude monasteries, lunar landscapes, and skies that touch forever.</p>
+            <a href="#" class="card-link">Read More →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== DIARIES ========== -->
+  <section id="diaries" class="section diaries">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">Latest entries</span>
+        <h2>Travel <em>Diaries</em></h2>
+        <p>Personal tales from the road — raw, honest, unforgettable.</p>
+      </div>
+      <div class="diary-grid">
+
+        <article class="diary-card reveal-up">
+          <div class="diary-thumb" style="background-image:url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80')"></div>
+          <div class="diary-body">
+            <span class="diary-date">May 3, 2025</span>
+            <h3>Lost in the Backstreets of Kyoto</h3>
+            <p>No map, no plan — just a pair of worn soles and an appetite for discovery in Japan's ancient capital.</p>
+            <a href="#" class="card-link">Read Full Entry →</a>
+          </div>
+        </article>
+
+        <article class="diary-card reveal-up">
+          <div class="diary-thumb" style="background-image:url('https://images.unsplash.com/photo-1473615695634-67fb8f7e2e0c?w=800&q=80')"></div>
+          <div class="diary-body">
+            <span class="diary-date">April 14, 2025</span>
+            <h3>Chasing Northern Lights in Finnish Lapland</h3>
+            <p>Three sleepless nights in a glass igloo, waiting for the sky to ignite. It was worth every frozen moment.</p>
+            <a href="#" class="card-link">Read Full Entry →</a>
+          </div>
+        </article>
+
+        <article class="diary-card reveal-up">
+          <div class="diary-thumb" style="background-image:url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&q=80')"></div>
+          <div class="diary-body">
+            <span class="diary-date">March 28, 2025</span>
+            <h3>The Long Road to Pangong Lake</h3>
+            <p>A 5 AM departure, altitude sickness, and a view so impossibly blue it felt like a fever dream.</p>
+            <a href="#" class="card-link">Read Full Entry →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALLERY ========== -->
+  <section id="gallery" class="section gallery-section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">Visual journal</span>
+        <h2>Gallery</h2>
+        <p>Click any image to explore the moment in full.</p>
+      </div>
+      <div class="gallery-grid reveal-up">
+        <div class="g-item tall" style="background-image:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80')" data-caption="White Sands, New Mexico"></div>
+        <div class="g-item" style="background-image:url('https://images.unsplash.com/photo-1519677100203-a0e668c92439?w=800&q=80')" data-caption="Santorini, Greece"></div>
+        <div class="g-item" style="background-image:url('https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=800&q=80')" data-caption="Swiss Alps"></div>
+        <div class="g-item wide" style="background-image:url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800&q=80')" data-caption="The open road, somewhere in the Alps"></div>
+        <div class="g-item" style="background-image:url('https://images.unsplash.com/photo-1491555103944-7c647fd857e6?w=800&q=80')" data-caption="Mountain lake reflections"></div>
+        <div class="g-item tall" style="background-image:url('https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&q=80')" data-caption="Foggy forest morning"></div>
+        <div class="g-item" style="background-image:url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80')" data-caption="Ladakh highlands"></div>
+        <div class="g-item" style="background-image:url('https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80')" data-caption="Tokyo night lights"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true">
+    <button class="lb-close" id="lbClose" aria-label="Close">✕</button>
+    <button class="lb-prev" id="lbPrev" aria-label="Previous">‹</button>
+    <button class="lb-next" id="lbNext" aria-label="Next">›</button>
+    <div class="lb-img-wrap">
+      <div id="lbImg" class="lb-img"></div>
+    </div>
+    <p id="lbCaption" class="lb-caption"></p>
+  </div>
+  <div id="lbOverlay" class="lb-overlay"></div>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about" class="section about-section">
+    <div class="container about-inner">
+      <div class="about-img-wrap reveal-up">
+        <div class="about-img" style="background-image:url('https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?w=600&q=80')"></div>
+        <div class="about-badge">✦ Solo Traveler</div>
+      </div>
+      <div class="about-text reveal-up">
+        <span class="section-tag">The wanderer</span>
+        <h2>Hello, I'm <em>Aria</em></h2>
+        <p>I quit a corporate desk job in 2019 to live out of a single backpack. Since then, I've chased monsoons across Southeast Asia, slept in monasteries in the Himalayas, and eaten my way through 40 countries — all while writing it down so you don't miss a single detour.</p>
+        <p>This journal is my honest, unfiltered account of the world as I find it — the breathtaking and the broken, the expensive and the free.</p>
+        <div class="about-socials">
+          <a href="#" class="social-btn" aria-label="Instagram">ig</a>
+          <a href="#" class="social-btn" aria-label="Twitter">tw</a>
+          <a href="#" class="social-btn" aria-label="YouTube">yt</a>
+          <a href="#" class="social-btn" aria-label="Pinterest">pt</a>
+        </div>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num" data-target="43">0</span>
+            <span class="stat-label">Countries</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-target="186000">0</span>
+            <span class="stat-label">Miles Traveled</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-target="218">0</span>
+            <span class="stat-label">Diaries Written</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="section testimonials">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">Fellow travelers</span>
+        <h2>What Readers <em>Say</em></h2>
+      </div>
+      <div class="testi-carousel reveal-up">
+        <div class="testi-track" id="testiTrack">
+
+          <div class="testi-card">
+            <div class="testi-avatar" style="background-image:url('https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&q=80')"></div>
+            <p>"Aria's writing made me feel like I was hiking the Annapurna Circuit myself. I booked my tickets within an hour of reading her Nepal diary."</p>
+            <strong>— Sophie Laurent</strong>
+            <span>Paris, France</span>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-avatar" style="background-image:url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80')"></div>
+            <p>"The most honest travel writing on the internet. No sponsorship fluff, no perfect photos — just real stories that inspire real trips."</p>
+            <strong>— Keanu Makoa</strong>
+            <span>Auckland, New Zealand</span>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-avatar" style="background-image:url('https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80')"></div>
+            <p>"I've been following Back Pack Diaries for three years. It single-handedly changed how I think about travel — slow, intentional, curious."</p>
+            <strong>— Priya Nair</strong>
+            <span>Mumbai, India</span>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-avatar" style="background-image:url('https://images.unsplash.com/photo-1552058544-f2b08422138a?w=200&q=80')"></div>
+            <p>"Her Ladakh post had me crying in my cubicle. I handed in my notice the next day. Best decision I ever made."</p>
+            <strong>— Ethan Brooks</strong>
+            <span>Toronto, Canada</span>
+          </div>
+
+        </div>
+        <div class="testi-dots" id="testiDots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== NEWSLETTER ========== -->
+  <section class="newsletter-section reveal-up">
+    <div class="container newsletter-inner">
+      <div class="nl-text">
+        <span class="section-tag">Stay in the loop</span>
+        <h2>Get new diaries in your inbox</h2>
+        <p>No spam. Just one beautifully written entry, whenever the road moves me.</p>
+      </div>
+      <form class="nl-form" id="nlForm" novalidate>
+        <div class="nl-input-wrap">
+          <input type="email" id="nlEmail" placeholder="your@email.com" aria-label="Email address" />
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </div>
+        <p class="nl-msg" id="nlMsg"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">Say hello</span>
+        <h2>Get in <em>Touch</em></h2>
+        <p>Collaboration, questions, or just want to share your own adventure? I'd love to hear from you.</p>
+      </div>
+      <form class="contact-form reveal-up" id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="cName">Your Name</label>
+            <input type="text" id="cName" placeholder="Jane Doe" />
+            <span class="form-err" id="cNameErr"></span>
+          </div>
+          <div class="form-group">
+            <label for="cEmail">Email Address</label>
+            <input type="email" id="cEmail" placeholder="jane@example.com" />
+            <span class="form-err" id="cEmailErr"></span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="cMsg">Your Message</label>
+          <textarea id="cMsg" rows="6" placeholder="Tell me about your next adventure..."></textarea>
+          <span class="form-err" id="cMsgErr"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p class="form-success" id="formSuccess"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">Back Pack Diaries</span>
+        <p>Documenting the world one mile at a time. Travel, wonder, repeat.</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="Twitter">tw</a>
+          <a href="#" aria-label="YouTube">yt</a>
+          <a href="#" aria-label="Pinterest">pt</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#diaries">Diaries</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#">Asia</a></li>
+          <li><a href="#">Europe</a></li>
+          <li><a href="#">Americas</a></li>
+          <li><a href="#">Africa</a></li>
+          <li><a href="#">Oceania</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Back Pack Diaries. Made with wanderlust. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
